@@ -1,0 +1,128 @@
+a{
+    text-decoration: none;
+}
+.container{
+    width: 95%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+h2{
+    font-size: 48px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:rgb(59, 59, 59);
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color:rgb(129, 129, 129);
+}
+.border-custom{
+    border-color: var(--main-color) !important;
+}
+:root{
+    --main-color:#EB225B;
+}
+/* Start Navbar */
+.navbar{
+    height: 65px !important;
+}
+.navbar img{
+    height:60px;
+}
+.custom-btn{
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.custom-btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-size: 300% 100%;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+/* End Navbar */
+/* Start Header */
+.header{
+    height: 100vh;
+    background-image: url("../img/3-servicios-de-voto-electronico.webp");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.loginheader{
+    height: 100vh;
+    background-image: url("../img/fondo-eleccion-a-representantes.webp");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color:rgb(49, 51, 53);
+    width: 0;
+    margin-left: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    animation: typing 3s both infinite alternate-reverse steps(37),blink .7s infinite;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 500px;
+    }
+}
+@keyframes blink{
+    from{
+        border-color: rgba(0,0 ,0, 0);
+    }
+    to{
+        border-color: rgba(0,0 ,0, 0.5);
+    }
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+/* End Header */
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.custom-color{
+    color: #333;
+}

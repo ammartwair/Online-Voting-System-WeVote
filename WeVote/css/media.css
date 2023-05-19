@@ -1,0 +1,212 @@
+@media (max-width:991px){
+    .header p{
+        font-size: 33px;
+        font-weight: bold;
+    }
+    .navbar{
+        height: 130px !important;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-hover{
+        margin: 0 !important;
+        font-size:xx-large !important;
+    }
+    .navbar ul{
+        flex-direction: row;
+    }
+    .innerheader{
+        height: 50vh !important;
+    }
+    .header p{
+    animation: typings 3s both infinite alternate-reverse steps(37),blinks .7s infinite;
+    }
+    @keyframes typings{
+        from{
+            width: 0;
+        }
+        to{
+            width: 695px;
+        }
+    }
+    @keyframes blinks{
+        from{
+            border-color: rgba(0,0 ,0, 0);
+        }
+        to{
+            border-color: rgba(0,0 ,0, 0.5);
+        }
+    }
+    .container{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #loginSection{
+        width: 100%;
+        justify-content: center;
+    }
+   
+    .form-select, .btn{
+        font-size: 2.5rem;
+    }
+    .loginheader{
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    }
+    #registerheader{
+    background-size: auto;
+    background-position: bottom;
+    }
+    .regForm{
+        margin-top: 100px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .profileimg {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    #showhide{
+        display: flex;
+        align-items: center;
+    }
+    #firstpagelogin1{
+        margin-top: 50px;
+    }
+    .regbtn{
+        margin-bottom: 50px;
+    }
+    .t941__wrapper {
+        flex-direction: column;
+        height: unset!important;
+    }
+    .t941__content {
+        width: 100%;
+        padding-top: 90px;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .t941__cover-wrap {
+        position: unset;
+        left: 40%;
+        flex-grow: 1;
+        width: 100%;
+        padding-bottom: 100%;
+        overflow: unset;
+        transform: skew(0,0);
+    }
+    .t941__cover, .t833__sliderwrapper.t941__cover {
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+    .t941__cover, .t833__sliderwrapper.t941__cover {
+        top: 0;
+        right: -30%;
+        bottom: 0;
+        left: -30%;
+        width: unset;
+        background-position: center center;
+        transform: skew(0,0);
+    }
+    .form-select, .btn {
+        font-size: large !important;
+    }
+    .btn-hover{
+        box-shadow: none !important;
+        font-size: small !important;
+    }
+    .t941 .btn-hover {
+        font-size: large !important;
+        margin-bottom: 1rem !important;
+    }
+    .t941__cover {
+        background-size:contain !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+    .t941 , .profileheader, .header , .registerHeader{
+        padding-top: 140px !important;
+    }
+    .reqheader{
+        padding-top: 50px;
+    }
+
+    .pollheader{
+        padding-top: 90px !important;
+    }
+    .customz{
+        padding-top: .5rem !important;
+        padding-bottom: .5rem !important;
+    }
+    .navbar-nav{
+        justify-content: space-evenly !important;
+    }
+    .navbar{
+        background-color: rgba(0,0 ,0, 0.5);
+    }
+
+}
+@media (max-width:768px){
+    h1{
+            font-size: 35px;
+    }
+    h2{
+            font-size: 30px;
+    }
+    .t941__content {
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        word-break: break-word;
+    }
+    .form-select, .btn {
+        font-size: small !important;
+    }
+    .btn-hover{
+        box-shadow: none !important;
+        font-size: small !important;
+    }
+}
+@media (min-width:992px){
+
+.navbar-expand-lg{
+    justify-content: center;
+}
+}
+
+@media (max-width:570px){
+    .navbar{
+        justify-content: center !important;
+        align-items: center !important;
+        position: absolute;
+    }
+    .navimg{
+        padding:0 !important;
+    }
+    .btn-hover{
+        box-shadow: none !important;
+        font-size: small !important;
+    }
+    .pt-5{
+        padding-top: 4rem !important;
+    }
+    .form-select, .btn {
+        font-size: small !important;
+    }
+.navbar-nav{
+    display: flex !important;
+    width: 100% !important;
+    align-items: center !important;
+}
+.btn-hover{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    transition: none !important;
+    -webkit-transition:none !important;
+}
+}
